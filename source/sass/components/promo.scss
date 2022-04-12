@@ -1,0 +1,90 @@
+.promo__wrapper {
+  display: flex;
+  margin-bottom: 281px;
+}
+
+.promo__heading {
+  color: $gray;
+  font-family: "Forum", serif;
+  font-size: 64rem;
+  line-height: 1.1;
+  margin-bottom: 50px;
+}
+
+.promo__inner {
+  margin-right: 94px;
+}
+
+.promo__link {
+  color: $gray;
+  font-family: "Segoe UI", cursive;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18rem;
+  line-height: 1.33;
+  padding-left: 297px;
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 130px;
+    height: 1px;
+    background: $gray;
+    position: absolute;
+    top: 13px;
+    left: 129px;
+  }
+}
+
+.promo__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.promo__description-product {
+  display: grid;
+  gap: 9px;
+  text-align: right;
+}
+
+.promo__name-product {
+  color: $white;
+  font-size: 16rem;
+  line-height: 1.31;
+  text-transform: uppercase;
+}
+
+.promo__materials-product {
+  font-size: 18rem;
+  line-height: 1.27;
+  font-weight: 300;
+  color: $light-gray;
+}
+
+.promo__price-product {
+  color: $gold;
+  font-family: "Segoe UI", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18rem;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+}
+
+.promo__language {
+  display: flex;
+  gap: 10px;
+}
+
+.promo__button {
+  background: none;
+  color: $light-gray;
+  font-size: 16rem;
+  line-height: 1.31;
+  letter-spacing: 0.03em;
+
+  &--current {
+    color: $gray;
+  }
+}

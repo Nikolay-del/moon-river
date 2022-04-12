@@ -1,6 +1,10 @@
 // Global
-@import "./components/global/normalize.scss";
-@import "./components/global/reset.scss";
-@import "./components/global/variables.scss";
-@import "./components/global/fonts.scss";
-@import "./components/global/global.scss";
+@import "./global/normalize.css";
+@import "./global/reset.scss";
+@import "./global/variables.scss";
+@import "./global/fonts.scss";
+@import "./global/global.scss";
+
+// Components
+@import "./components/page-header.scss";
+@import "./components/promo.scss";

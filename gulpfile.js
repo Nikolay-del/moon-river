@@ -51,7 +51,7 @@ const scripts = () => {
     .pipe(browser.stream());
 }
 
-const terser = () => {
+const jsmin = () => {
   return gulp.src('source/js/**/*.js')
     .pipe(terser())
 }
@@ -160,7 +160,7 @@ export const build = gulp.series(
     styles,
     html,
     scripts,
-    terser,
+    jsmin,
     svg,
     sprite,
     createWebp

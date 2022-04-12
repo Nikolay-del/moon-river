@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Moon River</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header__top">
+        <a href="#" class="logo">
+          <img src="img/logo.svg" alt="Логотип" width="258" height="53">
+        </a>
+        <div class="page-header__right">
+          <ul class="page-header__list">
+            <li class="page-header__item">
+              <a href="#" class="page-header__link">
+                <svg width="24" height="22" viewBox="0 0 24 22" fill="none">
+                  <use xlink:href="img/sprite.svg#icon-favourites" />
+                </svg>
+              </a>
+            </li>
+            <li class="page-header__item">
+              <a href="#" class="page-header__link">
+                <svg width="15" height="22" viewBox="0 0 15 22" fill="none">
+                  <use xlink:href="img/sprite.svg#icon-profile" />
+                </svg>
+              </a>
+            </li>
+            <li class="page-header__item">
+              <a href="#" class="page-header__link">
+                <svg width="17" height="22" viewBox="0 0 17 22" fill="none">
+                  <use xlink:href="img/sprite.svg#icon-cart" />
+                </svg>
+                <span>1</span>
+              </a>
+            </li>
+          </ul>
+          <button class="page-header__toggle page-header__toggle--active">
+            <div class="slidebar-toggle-btn">
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="promo">
+        <div class="promo__wrapper">
+          <div class="promo__inner">
+            <h2 class="promo__heading">HIGH JEWELRY</h2>
+            <a href="#" class="promo__link">Смотреть коллекцию</a>
+          </div>
+          <picture>
+            <source type="image/webp" srcset="img/promo-ring.webp 1x, img/promo-ring@2x.webp 2x">
+            <img src="img/promo-ring.png" srcset="img/promo-ring@2x.png" alt="Кольцо Trinity, Cartier" width="322"
+              height="170" class="promo__image">
+          </picture>
+        </div>
+        <div class="promo__footer">
+          <div class="promo__language">
+            <button class="promo__button promo__button--current" type="button">RU</button>
+            <button class="promo__button" type="button">EN</button>
+          </div>
+          <div class="promo__description-product">
+            <h4 class="promo__name-product">КОЛЬЦО TRINITY, Cartier</h4>
+            <p class="promo__materials-product">Белое золото, бриллианты</p>
+            <span class="promo__price-product">498 000 ₽</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</body>
+
+</html>

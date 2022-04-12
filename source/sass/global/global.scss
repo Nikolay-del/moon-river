@@ -6,11 +6,21 @@
 
 html {
   height: 100%;
+  font-size: 1px;
 }
 
-.page__body {
+body {
   display: grid;
   min-height: 100%;
   grid-template-rows: min-content 1fr min-content;
   align-content: start;
+  font-size: 18rem;
+  font-family: "Futura PT", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 162px;
 }
