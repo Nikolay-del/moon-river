@@ -84,7 +84,27 @@
         <a href="#" class="sections__link">Перейти в раздел</a>
       </div>
     </section>
+    <section class="location">
+      <div class="location__container">
+        <div class="location__content">
+          <h2 class="location__heading">Найди <br> бутик около себя</h2>
+          <p class="location__paragraph">Введите свой адрес и узнайте о самых ближайших бутиках к вам</p>
+          <div class="location__search">
+            <input type="text" placeholder="Введите адрес" class="location__input">
+            <button class="location__button" aria-label="Поиск">
+              <svg width="30" height="17" viewBox="0 0 30 17" fill="none">
+                <use xlink:href="img/sprite.svg#arrow-input" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="location__map" id="map">
+          <script src="https://api-maps.yandex.ru/2.1/?apikey=6cc91ab5-5add-4d94-8b6f-a479bd7352e1&lang=ru_RU" type="text/javascript"></script>
+        </div>
+      </div>
+    </section>
   </main>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

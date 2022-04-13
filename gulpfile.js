@@ -100,7 +100,7 @@ const sprite = () => {
 
 const copy = (done) => {
   gulp.src([
-      'source/fonts/**/*',
+      'source/fonts/**/*.*',
       'source/*.ico',
       'source/favicons/*',
       'source/*.webmanifest',
